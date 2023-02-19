@@ -14,7 +14,7 @@ public class ConcreteClass extends BaseClass{
      * Next pointer can be assigned during class initialization or dynamically assigned with set method
      * @param next
      */
-    public ConcreteClass(final BaseClass next) {
+    public ConcreteClass(final Handler next) {
         this.next = next;
     }
 
@@ -24,6 +24,9 @@ public class ConcreteClass extends BaseClass{
      */
     @Override
     public void operation() {
+
         System.out.println("Operation from Concrete class");
+        if (next != null)
+            next.operation();
     }
 }

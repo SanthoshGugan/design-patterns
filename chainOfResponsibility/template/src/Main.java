@@ -13,10 +13,6 @@ public class Main {
         final BaseClass simpleHandler = new SimpleClass(concreteHandler);
 
         simpleHandler.operation();
-        final var next = simpleHandler.getNext();
-        next.operation();
-
-        final var last = next.getNext();
-        System.out.printf("Next for last handler "+last.getNext());
+        concreteHandler.operation();
    }
 }

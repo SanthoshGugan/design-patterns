@@ -9,13 +9,19 @@ public abstract class BaseClass implements Handler{
     /**
      * next pointer is available for the set of concrete classes that needs to assign chain of responsibility
      */
-    protected BaseClass next;
+    protected Handler next;
 
     @Override
     public void operation() {
+
         System.out.println("Base class operation!!!!");
+        next.operation();
     }
 
-    public BaseClass getNext() { return this.next;}
+    @Override
+    public void nextHandler(final Handler handler) {
+        this.next = handler;
+    }
+
 
 }
