@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/AtmDispenser/AtmDispenser.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/AtmDispenser/AtmDispenser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/AuthProvider/AuthProvider.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/AuthProvider/AuthProvider.iml" />
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/ShoppingCartExample/ShoppingCartExample.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/ShoppingCartExample/ShoppingCartExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/chainOfResponsibility.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/chainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
