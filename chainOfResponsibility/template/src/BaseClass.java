@@ -23,5 +23,6 @@ public abstract class BaseClass implements Handler{
         this.next = handler;
     }
 
+    public void setDefaultNext(final Handler handler) { this.next = handler; }
 
 }

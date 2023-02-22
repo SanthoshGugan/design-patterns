@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/ShoppingCartExample/ShoppingCartExample.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/ShoppingCartExample/ShoppingCartExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/chainOfResponsibility.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/chainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iterator/iterator.iml" filepath="$PROJECT_DIR$/iterator/iterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iterator/iterator.channelIterator/iterator.channelIterator.iml" filepath="$PROJECT_DIR$/iterator/iterator.channelIterator/iterator.channelIterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iterator/iterator.template/iterator.template.iml" filepath="$PROJECT_DIR$/iterator/iterator.template/iterator.template.iml" />
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/template/template.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/template/template.iml" />
     </modules>
   </component>
