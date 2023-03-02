@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Momento {
+    - state: State
+    + setState(state: State): void
+    + getState(): State
+}
+
+class CareTaker {
+    momento: Momento
+}
+
+Originator *.. Momento: contains
+Momento o.. CareTaker
+
+@enduml

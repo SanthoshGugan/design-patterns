@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class TextEditor {
+    - text: String
+
+    + append(text: String): void
+    + getState(): TextEditorState
+    + setState(state: TextEditorState): void
+}
+
+class TextEditorState {
+    - text: String
+    - getState(): String
+    - setState(text: String)
+}
+
+class UndoProvider {
+    - textEditor: TextEditor
+    + undo()
+}
+
+TextEditor *.. TextEditorState: contains
+TextEditor --o UndoProvider
+
+
+@enduml
