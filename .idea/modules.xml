@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/momento/momento.template/momento.template.iml" filepath="$PROJECT_DIR$/momento/momento.template/momento.template.iml" />
       <module fileurl="file://$PROJECT_DIR$/momento/momento.textEditor/momento.textEditor.iml" filepath="$PROJECT_DIR$/momento/momento.textEditor/momento.textEditor.iml" />
       <module fileurl="file://$PROJECT_DIR$/chainOfResponsibility/template/template.iml" filepath="$PROJECT_DIR$/chainOfResponsibility/template/template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/visitor/visitor.iml" filepath="$PROJECT_DIR$/visitor/visitor.iml" />
     </modules>
   </component>
 </project>

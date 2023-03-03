@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+interface Visitor {
+    + visit(ConcreteElement1 element1): void
+    + visit(ConcreteElement2 element2): void
+}
+
+class VisitorImpl {
+    + visit(ConcreteElement1 element1): void
+    + visit(ConcreteElement2 element2): void
+}
+
+interface Element {
+    - accept(visitor: Visitor): void
+}
+
+class ConcreteElement1 {
+    - accept(visitor: Visitor): void
+}
+
+class ConcreteElement2 {
+    - accept(visitor: Visitor): void
+}
+
+Visitor <|-- VisitorImpl: implements
+Element o-- Visitor: has
+Element <|-- ConcreteElement1: extends
+Element <|-- ConcreteElement2: extends
+
+@enduml
