@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Context {
+    + action1(): void
+    + action2(): void
+}
+
+class ConcreteContext implements Context {
+    - state: State
+
+    + action1(): void
+    + action2(): void
+
+}
+note left of ConcreteContext
+    action1 calls state.method1(),
+    action2 cals state.method2()
+end note
+
+
+interface State {
+    + method1(): void
+    + method2(): void
+}
+
+class ConcreteState1 implements State {
+
+    + ConcreteState1(): void
+    + method1(): void
+    + method2(): void
+}
+
+class ConcreteState2 implements State {
+    + ConcreteState2(): void
+    + method1: void
+    + method2: void
+}
+
+@enduml

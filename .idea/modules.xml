@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/iterator/iterator.iml" filepath="$PROJECT_DIR$/iterator/iterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/iterator/iterator.channelIterator/iterator.channelIterator.iml" filepath="$PROJECT_DIR$/iterator/iterator.channelIterator/iterator.channelIterator.iml" />
       <module fileurl="file://$PROJECT_DIR$/iterator/iterator.template/iterator.template.iml" filepath="$PROJECT_DIR$/iterator/iterator.template/iterator.template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediator/mediator.iml" filepath="$PROJECT_DIR$/mediator/mediator.iml" />
       <module fileurl="file://$PROJECT_DIR$/momento/momento.iml" filepath="$PROJECT_DIR$/momento/momento.iml" />
       <module fileurl="file://$PROJECT_DIR$/momento/momento.template/momento.template.iml" filepath="$PROJECT_DIR$/momento/momento.template/momento.template.iml" />
       <module fileurl="file://$PROJECT_DIR$/momento/momento.textEditor/momento.textEditor.iml" filepath="$PROJECT_DIR$/momento/momento.textEditor/momento.textEditor.iml" />

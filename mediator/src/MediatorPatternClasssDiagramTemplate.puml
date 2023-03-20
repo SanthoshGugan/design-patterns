@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface Mediator {
+    sendMessage(message: String): void
+}
+
+class MediatorImpl implements Mediator{
+    - colleagues: List<CommunicationNode>
+
+    + sendMessage(message: string, sender: CommunicationNode): void
+}
+
+interface CommunicationNode {
+    sendMessage(message: String): void
+    receiveMessage(message: String): void
+}
+
+class CommunicationNodeImpl implements CommunicationNode {
+    - mediator: Mediator
+
+    + CommunicationNodeImpl(mediator: Mediator)
+
+    + sendMessage(message: String): void
+    + receiveMessage(message: String): void
+}
+
+CommunicationNode "*" o..o "1" Mediator: has
+
+@enduml
