@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Client {
+    - adapter: Adapter
+}
+
+interface Adaptee {
+    + request()
+}
+
+class ConcreteAdaptee implements Adaptee {
+    + request()
+}
+
+interface Target {
+    + specificRequest()
+}
+
+interface Adapter {
+    - adaptee: Adaptee
+    + specificRequest()
+}
+
+class ConcreteAdapter implements Adapter {
+    + Adapter(adaptee: Adaptee)
+
+    + specificRequest()
+}
+
+Adapter o.. Adaptee
+Client o.. Adapter
+
+
+@enduml
