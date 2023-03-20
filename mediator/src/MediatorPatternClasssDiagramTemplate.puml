@@ -6,25 +6,25 @@ interface Mediator {
 }
 
 class MediatorImpl implements Mediator{
-    - colleagues: List<Colleague>
+    - colleagues: List<CommunicationNode>
 
-    + sendMessage(message: string, sender: Colleague): void
+    + sendMessage(message: string, sender: CommunicationNode): void
 }
 
-interface Colleague {
+interface CommunicationNode {
     sendMessage(message: String): void
     receiveMessage(message: String): void
 }
 
-class ColleagueImpl implements Colleague {
+class CommunicationNodeImpl implements CommunicationNode {
     - mediator: Mediator
 
-    + ColleagueImpl(mediator: Mediator)
+    + CommunicationNodeImpl(mediator: Mediator)
 
     + sendMessage(message: String): void
     + receiveMessage(message: String): void
 }
 
-Colleague "*" o..o "1" Mediator: has
+CommunicationNode "*" o..o "1" Mediator: has
 
 @enduml
