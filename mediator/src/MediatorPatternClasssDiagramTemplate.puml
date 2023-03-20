@@ -19,6 +19,8 @@ interface Colleague {
 class ColleagueImpl implements Colleague {
     - mediator: Mediator
 
+    + ColleagueImpl(mediator: Mediator)
+
     + sendMessage(message: String): void
     + receiveMessage(message: String): void
 }
